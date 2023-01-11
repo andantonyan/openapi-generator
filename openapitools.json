@@ -1,0 +1,28 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "6.2.1",
+    "generators": {
+      "petstore": {
+        "generatorName": "java",
+        "output": "#{cwd}/clients/petstore",
+        "inputSpec": "https://petstore.swagger.io/v2/swagger.json",
+        "library": "webclient",
+        "groupId": "com.andantonyan.client",
+        "artifactId": "petstore",
+        "artifactVersion": "0.0.1-SNAPSHOT",
+        "apiPackage": "com.andantonyan.client.petstore.api",
+        "modelPackage": "com.andantonyan.client.petstore.model",
+        "invokerPackage": "com.andantonyan.client.petstore",
+        "globalProperty": {
+          "apiTests": false,
+          "modelTests": false
+        },
+        "additionalProperties": {
+          "implicitHeaders": true
+        }
+      }
+    }
+  }
+}

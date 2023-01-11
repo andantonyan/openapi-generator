@@ -1,0 +1,13 @@
+node_modules
+target
+gen
+build
+out
+.idea
+.classpath
+.settings
+*.DS_Store
+*.iml
+*.log
+*.class
+*swagger.json
